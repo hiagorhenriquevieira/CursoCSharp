@@ -41,6 +41,7 @@ namespace CursoCSharp {
                 {"Construtores - Estrutura de Controle", Construtores.Executar},
                 {"Metodos com retorno - Estrutura de Controle", MetodosComRetorno.Executar},
                 {"Metodos Estáticos - Estrutura de Controle", MetodosEstaticos.Executar},
+                {"Atributos Estaticos - Estrutura de Controle", AtributosEstaticos.Executar},
             });
 
             central.SelecionarEExecutar();
