@@ -66,6 +66,9 @@ namespace CursoCSharp.ClassesEMetodos
             var calculadoraCadeia = new CalculadoraCadeia();
             calculadoraCadeia.Somar(3).Multiplicar(3).Imprimir().
                 Limpar().Imprimir();
+
+            resultado = calculadoraCadeia.Somar(3).Multiplicar(2).Resultado();
+            Console.WriteLine(resultado);
         }
     }
 }
