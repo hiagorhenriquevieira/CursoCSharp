@@ -58,7 +58,13 @@ namespace CursoCSharp {
                 {"Parametros Padrão  - Classes e Métodos", ParametroPadrao.Executar},
 
                 //Coleções
-                {"Usando o Array - Classes e Métodos", UsandoArray.Executar},
+                {"Array - Coleções", UsandoArray.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"ArrayList - Coleções", UsandoArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecaoStack.Executar},
             });
 
             central.SelecionarEExecutar();
