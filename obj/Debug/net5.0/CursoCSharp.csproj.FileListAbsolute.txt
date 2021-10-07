@@ -30,3 +30,6 @@ C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\bin\Debug\net5.0\Curs
 C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\bin\Debug\net5.0\ref\CursoCSharp.dll
 C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\bin\Debug\net5.0\CursoCSharp.pdb
 C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\obj\Debug\net5.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\bin\Debug\net5.0\Encapsulamento.dll
+C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\bin\Debug\net5.0\Encapsulamento.pdb
+C:\Users\ESTÁGIO\source\repos\GitRepositories\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.CopyComplete

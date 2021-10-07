@@ -164,6 +164,16 @@
         "compile": {
           "ref/netstandard1.3/_._": {}
         }
+      },
+      "Encapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        }
       }
     }
   },
@@ -1028,10 +1038,16 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "Encapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/Encapsulamento.csproj",
+      "msbuildProject": "../ClassLibrary1/Encapsulamento.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Encapsulamento >= 1.0.0",
       "System.Collections.NonGeneric >= 4.3.0"
     ]
   },
@@ -1069,7 +1085,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ESTÁGIO\\source\\repos\\GitRepositories\\ClassLibrary1\\Encapsulamento.csproj": {
+              "projectPath": "C:\\Users\\ESTÁGIO\\source\\repos\\GitRepositories\\ClassLibrary1\\Encapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
