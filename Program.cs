@@ -6,6 +6,8 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OrientacaoAObjetos;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp {
     class Program {
@@ -75,12 +77,24 @@ namespace CursoCSharp {
                 {"Construtor This - Orientação a Objeto", ConstrutorThis.Executar},
                 {"Encapsulamento - Orientação a Objeto", UsandoEncapsulamento.Executar},
                 {"Polimorfismo Orientação a Objeto", UsandoPolimorfismo.Executar},
-                {"Classes Abstratas  Orientação a Objeto", ClassesAbstratas.Executar},
-                {"Interface  Orientação a Objeto", Interface.Executar},
-                {"Sealed  Orientação a Objeto", ClassSealed.Executar},
+                {"Classes Abstratas - Orientação a Objeto", ClassesAbstratas.Executar},
+                {"Interface - Orientação a Objeto", Interface.Executar},
+                {"Sealed - Orientação a Objeto", ClassSealed.Executar},
                 
                 //Métodos e Funcões 
                 {"Exemplo Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Lambda Delegate - Métodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegate - Métodos e Funções", UsandoDelegate.Executar},
+                {"Função Anonima Delegate - Métodos e Funções", DelegateFuncAnonima.Executar},
+                {"Delegate Como Parametros - Métodos e Funções", DelegateComoParametros.Executar},
+                {"Metodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+
+                //Exceções 
+                {"Tratamento de Erro - Exceções", PrimeiraExcecao.Executar},
+                {"Excecoes Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                //Api
+                {"Usando Api - Exceções", PrimeiroArquivo.Executar},
 
             });
 
