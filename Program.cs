@@ -8,6 +8,7 @@ using CursoCSharp.OrientacaoAObjetos;
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
+            
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
@@ -71,6 +72,10 @@ namespace CursoCSharp {
                 {"Herança - Orientação a Objeto", Heranca.Executar},
                 {"Construtor This - Orientação a Objeto", ConstrutorThis.Executar},
                 {"Encapsulamento - Orientação a Objeto", UsandoEncapsulamento.Executar},
+                {"Polimorfismo Orientação a Objeto", UsandoPolimorfismo.Executar},
+                {"Classes Abstratas  Orientação a Objeto", ClassesAbstratas.Executar},
+                {"Interface  Orientação a Objeto", Interface.Executar},
+                {"Sealed  Orientação a Objeto", ClassSealed.Executar},
 
             });
 
