@@ -105,6 +105,7 @@ namespace CursoCSharp {
 
                 //Topicos Avançados
                 {"LINQ #01  - Topicos Avançados", LINQ1.Executar},
+                {"LINQ #02  - Topicos Avançados", LINQ2.Executar},
             });
 
             central.SelecionarEExecutar();
